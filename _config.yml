@@ -1,12 +1,15 @@
 layout: sidebar
 style: dark
 
-title: Daniel Ehniss / depone.dev
+title: Daniel Ehniss
 url: https://depone.dev
 
 twitter:
   username: depone
   card: summary
+
+facebook:
+  admins: 613736011
 
 social:
   name: Daniel Ehniss
@@ -14,6 +17,7 @@ social:
     - https://instagram.com/deponev2
     - https://mastodon.social/depone
     - https://www.facebook.com/danielehniss
+    - https://www.linkedin.com/in/depone/
 
 plugins:
   - jekyll-octicons
