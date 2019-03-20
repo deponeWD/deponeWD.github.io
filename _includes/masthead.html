@@ -15,7 +15,7 @@
     {% if user.name %}
       <div class="{{ metadata_styles }}">
         {% octicon mark-github height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
-        <a href="https://github.com/{{ user.login }}" {% if site.style == 'dark' %}class="text-white"{% endif %}>
+        <a rel="me" href="https://github.com/{{ user.login }}" {% if site.style == 'dark' %}class="text-white"{% endif %}>
           @{{ user.login }}
         </a>
       </div>
@@ -23,20 +23,20 @@
     {% if user.blog %}
       <div class="{{ metadata_styles }}">
         {% octicon link height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:link %}
-        <a href="{{ user.blog }}" {% if site.style == 'dark' %}class="text-white"{% endif %}>
+        <a rel="me" href="{{ user.blog }}" {% if site.style == 'dark' %}class="text-white"{% endif %}>
           {{ user.blog }}
         </a>
       </div>
     {% endif %}
     <div class="{{ metadata_styles }}">
       {% octicon link height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:link %}
-      <a href="https://codepen.io/depone/" {% if site.style == 'dark' %}class="text-white"{% endif %}>
+      <a rel="me" href="https://codepen.io/depone/" {% if site.style == 'dark' %}class="text-white"{% endif %}>
         https://codepen.io/depone/
       </a>
     </div>
     <div class="{{ metadata_styles }}">
       {% octicon link height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:link %}
-      <a href="https://twitter.com/depone/" {% if site.style == 'dark' %}class="text-white"{% endif %}>
+      <a rel="me" href="https://twitter.com/depone/" {% if site.style == 'dark' %}class="text-white"{% endif %}>
         https://twitter.com/depone/
       </a>
     </div>
