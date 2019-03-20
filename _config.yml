@@ -1,6 +1,20 @@
 layout: sidebar
 style: dark
 
+title: Daniel Ehniss / depone.dev
+url: https://depone.dev
+
+twitter:
+  username: depone
+  card: summary
+
+social:
+  name: Daniel Ehniss
+  links:
+    - https://instagram.com/deponev2
+    - https://mastodon.social/depone
+    - https://www.facebook.com/danielehniss
+
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
